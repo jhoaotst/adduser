@@ -6,7 +6,7 @@ function agregarUsuario() {
     };
 
     // Realiza la llamada a tu endpoint utilizando fetch.
-    fetch('https://bi-chatbot.whiz.pe/api/users', {
+    fetch('https://bi-chatbot-devclient.whiz.pe/api/users', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
